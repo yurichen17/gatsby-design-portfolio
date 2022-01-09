@@ -15,8 +15,11 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/allison": "^4.5.2",
+    "@fontsource/kite-one": "^4.5.0",
     "gatsby": "^4.4.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-fade-in": "^2.0.1"
   }
 }
