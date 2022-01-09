@@ -50,7 +50,7 @@ const pages = [
 const IndexPage = () => {
     return (
         <main class="pageStyle">
-            <FadeIn delay={140} transitionDuration={500}>
+            <FadeIn delay={140} transitionDuration={1000}>
                 <img class="logoStyle" src={logo}></img>
                 <div class="titleStyle">
                     Yuri Chen
