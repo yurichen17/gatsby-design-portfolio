@@ -35,7 +35,7 @@ html{
     margin: auto;
     padding: 10px;
     font-size: 70px;
-    width: 400px;
+    width: 300px;
     position: relative;
 }
 .desc{
@@ -91,6 +91,12 @@ html{
 @media screen and (max-width:800px){
     .aboutSection{
         max-width: 100%;
+    }
+    .text-holder{
+        width: 300px;
+    }
+    .backButton{
+        left: 0%;
     }
 }
 
