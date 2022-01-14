@@ -1,4 +1,5 @@
 import * as React from "react"
+import Helmet from 'react-helmet';
 import FadeIn from 'react-fade-in';
 import "@fontsource/allison"
 import "@fontsource/kite-one"
