@@ -4,5 +4,5 @@ module.exports = {
     title: "My Design Portfolio",
     image: "/lily.png",
   },
-  plugins: [],
+  plugins: ['gatsby-plugin-react-helmet',],
 };

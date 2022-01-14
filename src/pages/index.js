@@ -50,6 +50,17 @@ const pages = [
 const IndexPage = () => {
     return (
         <main class="pageStyle">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>My Design Portfolio</title>
+                <meta property='og:image' content={ socialBanner } />
+                <meta property='og:locale' content='en_US' />
+                <meta property='og:type' content='website' />
+                <meta property='og:title' content="Yuri's Portfolio" />
+                <meta property='og:description' content="This website displays some of Yuri's projects that incorporates some type of design by her." />
+                <meta property='og:url' content='https://yuridesignportfolio.gatsbyjs.io/' />
+                <meta property='og:updated_time' content='2022-01-14' />
+            </Helmet>
             <FadeIn delay={140} transitionDuration={1000}>
                 <img class="logoStyle" src={logo}></img>
                 <div class="titleStyle">
