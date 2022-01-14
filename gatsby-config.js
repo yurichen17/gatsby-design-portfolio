@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://yuridesignportfolio.gatsbyjs.io",
     title: "My Design Portfolio",
     image: "/lily.png",
   },
