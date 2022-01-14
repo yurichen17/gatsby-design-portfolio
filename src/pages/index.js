@@ -53,7 +53,7 @@ const IndexPage = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>My Design Portfolio</title>
-                <meta property='og:image' content={ socialBanner } />
+                <meta property='og:image' content={ logo } />
                 <meta property='og:locale' content='en_US' />
                 <meta property='og:type' content='website' />
                 <meta property='og:title' content="Yuri's Portfolio" />
