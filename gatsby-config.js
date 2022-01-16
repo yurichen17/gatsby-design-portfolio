@@ -4,5 +4,13 @@ module.exports = {
     title: "My Design Portfolio",
     image: "/lily.png",
   },
-  plugins: ['gatsby-plugin-react-helmet',],
+  plugins: [
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: 'src/images/pro-icon.png',
+      },
+    }
+  ],
 };
