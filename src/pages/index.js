@@ -50,7 +50,7 @@ const pages = [
 
 const IndexPage = () => {
     return (
-        <main class="pageStyle">
+        <main className="pageStyle">
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>My Design Portfolio</title>
@@ -63,25 +63,25 @@ const IndexPage = () => {
                 <meta property='og:updated_time' content='2022-01-14' />
             </Helmet>
             <FadeIn delay={140} transitionDuration={1000}>
-                <img class="logoStyle" src={logo}></img>
-                <div class="titleStyle">
+                <img className="logoStyle" src={logo}></img>
+                <div className="titleStyle">
                     Yuri Chen
                 </div>
-                <div class="buttonLayout">
+                <div className="buttonLayout">
                     {pages.map(page => (
-                        <a class="wrap" href={`${page.url}`} key={page.url}>
-                            <div class="hidden">
+                        <a className="wrap" href={`${page.url}`} key={page.url}>
+                            <div className="hidden">
                                 <p>{page.text}</p>
                             </div>
-                            <img class="cover" src={page.photo}></img>
+                            <img className="cover" src={page.photo}></img>
                         </a>
                     ))}
                 </div>
-                <div class="aboutSection">
-                    <div class="aboutTitle">
+                <div className="aboutSection">
+                    <div className="aboutTitle">
                         About Me
                     </div>
-                    <div class="aboutText">
+                    <div className="aboutText">
                         Thank you for checking out my design portfolio! 
                         My name is Yuri Chen and I'm currently a junior at the University of Michigan. 
                         I'm studing Computer Science and Art and Design. I'm really interested in combining these two interests of mine. 

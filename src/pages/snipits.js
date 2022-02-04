@@ -29,18 +29,18 @@ const description={
 
 export default function Snipits() {
   return (
-    <div class="pageStyle">
+    <div className="pageStyle">
       <FadeIn delay={100} transitionDuration={500}>
-        <div class="header">
-          <a class="backButton" href="/">
-            <img class="arrow" src={arrow} alt="back arrow"></img>
+        <div className="header">
+          <a className="backButton" href="/">
+            <img className="arrow" src={arrow} alt="back arrow"></img>
             Back
           </a>
         </div>
-        <div class="title">
+        <div className="title">
           Snipits
         </div>
-        <div class="desc">
+        <div className="desc">
           <div>
             {description.date}
           </div>
@@ -48,61 +48,61 @@ export default function Snipits() {
             {description.context}
           </div>
         </div>
-        <div class="content">
-          <div class="image-holder">
-            <img class="image-style" src={section1.img} alt="screenshot of snipits"></img>
+        <div className="content">
+          <div className="image-holder">
+            <img className="image-style" src={section1.img} alt="screenshot of snipits"></img>
           </div>
-          <div class="text-holder">
-            <div class="text-style">
+          <div className="text-holder">
+            <div className="text-style">
               {section1.text}
             </div>
           </div>
         </div>
-        <div class="content">
-          <div class="text-holder after-text">
-            <div class="text-style">
+        <div className="content">
+          <div className="text-holder after-text">
+            <div className="text-style">
               {section2.text}
             </div>
           </div>
-          <div class="image-holder">
-            <img class="image-style" src={section2.img} alt="scissors gif"></img>
+          <div className="image-holder">
+            <img className="image-style" src={section2.img} alt="scissors gif"></img>
           </div>
         </div>
       </FadeIn>
-      <div class="content">
+      <div className="content">
         <div>
-          <img class="full-image" src={bigImg.big1} alt="draft design"></img>
+          <img className="full-image" src={bigImg.big1} alt="draft design"></img>
         </div>
         <div>
-          <video class="full-image" width={1500} controls>
+          <video className="full-image" width={1500} controls>
             <source src={img4} type="video/mp4" ></source>
             Your browser does not support the video tag.
           </video>
         </div>
-        <div class="content">
-          <div class="text-holder">
-            <div class="text-style">
+        <div className="content">
+          <div className="text-holder">
+            <div className="text-style">
             <a href="https://yurichen.me/pages/projects/snipits.html">Click here</a> for more details about this project
             </div>
           </div>
-          <div class="text-holder">
-            <div class="text-style">
+          <div className="text-holder">
+            <div className="text-style">
             <a href="https://snipit.pages.dev/">Click here</a> to check out the website!
             </div>
           </div>
         </div>
       </div>
-      <div class="header bottom">
-        <a class="backButton" href="/">
-          <img class="arrow" src={arrow} alt="back arrow"></img>
+      <div className="header bottom">
+        <a className="backButton" href="/">
+          <img className="arrow" src={arrow} alt="back arrow"></img>
           Back to home page
         </a>
       </div>
-      <div class="aboutSection">
-        <div class="aboutTitle">
+      <div className="aboutSection">
+        <div className="aboutTitle">
             About Me
         </div>
-        <div class="aboutText">
+        <div className="aboutText">
             Thank you for checking out my design portfolio! 
             My name is Yuri Chen and I'm currently a junior at the University of Michigan. 
             I'm studing Computer Science and Art and Design. I'm really interested in combining these two interests of mine. 

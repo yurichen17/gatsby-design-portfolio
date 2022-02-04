@@ -21,9 +21,12 @@ html{
     margin: auto;
     padding: 10px;
     font-size: 70px;
+    /*
     border-style: solid;
     border-color: black;
     width: 300px;
+    */
+    color: rgb(39, 45, 126);
     position: relative;
     font-family: "Allison";
 }
